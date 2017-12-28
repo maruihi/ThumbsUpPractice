@@ -2,7 +2,7 @@
 HenCoder仿即刻点赞，可设置图标、文字大小颜色、文字与图标的距离及动态的设置初始值及状态。
 
 ## 效果图
-![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
+![](https://github.com/maruihi/ThumbsUpPractice/blob/master/result.gif)
 
 ## 布局文件内可以设置的属性
 1.默认是否已赞<br>
