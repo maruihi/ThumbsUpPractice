@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="thumbs_up_view">
+        <attr name="is_thumb_up" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="thumbs_img_view">
+        <attr name="selected_img" format="reference" />
+        <attr name="unselected_img" format="reference" />
+        <attr name="has_background" format="boolean" />
+        <attr name="color_value" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="thumbs_count_view">
+        <attr name="count" format="integer" />
+        <attr name="text_size" format="integer" />
+        <attr name="text_color" format="string" />
+    </declare-styleable>
+
+</resources>

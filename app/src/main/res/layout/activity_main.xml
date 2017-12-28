@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mr.thumbsuppractice.thumbsUpView.ThumbsUpLayout
+        android:id="@+id/thumbs_up_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <com.mr.thumbsuppractice.thumbsUpView.ThumbsImgView
+            android:id="@+id/thumbs_img_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:has_background="false" />
+
+        <com.mr.thumbsuppractice.thumbsUpView.ThumbsCountView
+            android:id="@+id/thumbs_count_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.mr.thumbsuppractice.thumbsUpView.ThumbsUpLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="60dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置初始值:" />
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="6dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="确定"
+            android:textColor="#0000ff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置初始状态:" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已赞" />
+
+            <RadioButton
+                android:id="@+id/rb_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="未赞" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
