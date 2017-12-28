@@ -1,5 +1,5 @@
 # 简介
-HenCoder仿即刻点赞，可设置图标、文字大小颜色、文字与图标的距离及动态的设置初始值及状态。
+HenCoder仿即刻点赞，可设置图标、文字大小颜色、文字与图标的距离及动态的设置初始值及状态。并对连续快速点击做了处理。
 
 ## 效果图
 ![](https://github.com/maruihi/ThumbsUpPractice/blob/master/result.gif)
